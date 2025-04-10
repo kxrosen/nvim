@@ -16,8 +16,8 @@ vim.opt.shiftwidth  = 0                                  -- set the autoindent <
 -- e, u, h, t, n, s
 vim.g.mapleader = ","
 vim.keymap.set('i', '<leader>.', '<ESC>')                -- life saver
-vim.keymap.set('n', '<leader>e', ':Ex <CR>')             -- choosing a file
-vim.keymap.set('n', '<leader>u', ':term <CR>i')          -- immediately go into insert mode in terminal
+vim.keymap.set('n', '<leader>a', ':Ex <CR>')             -- choosing a file
+vim.keymap.set('n', '<leader>s', ':term <CR>i')          -- immediately go into insert mode in terminal
 
 -- packer and its plugin
 vim.cmd [[packadd packer.nvim]]
